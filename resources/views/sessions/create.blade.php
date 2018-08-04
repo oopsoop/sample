@@ -24,6 +24,10 @@
                     <input type="password" id="password" name="password" class="form-control" value="{{ old('password') }}">
                 </div>
 
+                <div class="checkbox">
+                    <label for="remember"><input id="remember" type="checkbox" name="remember"> 记住我</label>
+                </div>
+
                 <button type="submit" class="btn btn-primary">登录</button>
             </form>
 
